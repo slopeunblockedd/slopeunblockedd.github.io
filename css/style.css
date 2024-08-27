@@ -3,10 +3,10 @@ body {
   color: rgba(225, 225, 225, 0.6);
 }
 body {
-  background-color: #211328;
+  background-color: #212529;
 }
 body.login-body {
-  background-color: #211328;
+  background-color: #212529;
 }
 img {
   max-width: 100%;
@@ -601,7 +601,7 @@ ul.category-list-game .cat-item:hover {
 .post-media {
   width: 100%;
   padding: 20px;
-  background: var(--bs-yellow);
+  background: #f6f8fa;
   border-radius: 8px;
   margin-bottom: 25px;
   color: var(--bs-body-color);
