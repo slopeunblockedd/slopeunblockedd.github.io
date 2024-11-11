@@ -202,22 +202,7 @@ ul.user-links li {
 }
 .grid-3 .list-game {
   background:  rgba(225, 225, 225, 0.15);
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-}
-.grid-3 .list-game-title {
-  text-align: center;
-  width: 100%;
-  color: var(--bs-border-color);
-  font-size: 15px;
-  font-weight: 700;
-  background: var(--bs-gray-dark);
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  padding: 2px 10px;
+  border-radius: 15px;
 }
 .grid-3 .list-thumbnail {
   overflow: hidden;
@@ -393,7 +378,7 @@ ul.category-list-game .cat-item:hover {
 }
 .game-info {
   background: rgba(255, 255, 255, 0.1);
-  padding: 10px 15px;
+  padding: 10px 18px 18px 18px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -422,7 +407,6 @@ ul.category-list-game .cat-item:hover {
   width: 100%;
   height: 100%;
   z-index: 10;
-  background: var(--bs-body-color);
 }
 .widget-title {
   margin-bottom: 20px;
@@ -696,7 +680,7 @@ input.form-control {
 }
 .game-container {
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: 18px;
 }
 .color-red {
   background: rgba(238, 19, 39, 0.4);

@@ -1,501 +1,835 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en" dir="ltr">
+
 <head>
-	<meta charset="utf-8">
-	<meta content="noindex,nofollow" name="robots"/>
-	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
-	<title> Ape Sling </title>
-	<meta content="Play Ape Sling game unblocked for free with fullscreen and no-ads-in-game experience."
-	      name="description">
-	<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-	<link href="/css/jquery-comments.css" rel="stylesheet" type="text/css"/>
-	<link href="/css/user.css" rel="stylesheet" type="text/css"/>
-	<link href="/css/style.css" rel="stylesheet" type="text/css"/>
-	<link href="/css/custom.css" rel="stylesheet" type="text/css"/>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet"/>
-	<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="apple-mobile-web-app-title" content="Slope Unblocked">
-	<meta name="application-name" content="Slope Unblocked">
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="theme-color" content="#212529">
-	<!-- Google tag  (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-RF7NSZF0M6"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Ape Sling</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="description"
+    content="Play Ape Sling unblocked game for free with fullscreen and no-ads-in-game experience.">
 
-	gtag('config', 'G-RF7NSZF0M6');
-	</script>
-	<!-- Font Awesome icons (free version)-->
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-	      type="text/css"/>
-	<!-- Google fonts-->
-	<link href="https://fonts.googleapis.com/" rel="preconnect">
-	<link crossorigin href="https://fonts.gstatic.com/" rel="preconnect">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <style type="text/css">
+    .report-modal {
+      display: none;
+      position: fixed;
+      z-index: 20;
+      padding-top: 100px;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgb(0, 0, 0);
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .report-modal-content {
+      background-color: #fefefe;
+      color: #000;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      max-width: 320px;
+    }
+
+    .close {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .report-label {
+      padding: 0 10px;
+      margin-right: 5px;
+      border-radius: 15px;
+      display: inline-block;
+      margin-bottom: 8px;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="../css/jquery-comments.css" />
+  <link rel="stylesheet" type="text/css" href="../css/user.css" />
+  <link rel="stylesheet" type="text/css" href="../css/style.css" />
+  <link rel="stylesheet" type="text/css" href="../css/custom.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+
+  <!-- Font Awesome icons (free version)-->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="apple-mobile-web-app-title" content="Slope Unblocked">
+  <meta name="application-name" content="Slope Unblocked">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#212529">
+  <!-- Google tag  (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RF7NSZF0M6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-RF7NSZF0M6');
+  </script>
 </head>
+
+
+
+
 <body id="page-top">
-<!-- Navigation-->
-<nav class="navbar navbar-expand-lg navbar-dark top-nav" id="mainNav">
-	<div class="container">
-		<button aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
-		        data-bs-target="#nav-menu" data-bs-toggle="collapse" type="button">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<a class="navbar-brand js-scroll-trigger" href="/">
-			<!-- <img src="#" width="70" height="35" class="" alt=" logo"> -->
-			<strong>Slope Unblocked</strong>
-		</a>
-		<div class="navbar-collapse collapse justify-content-between" id="nav-menu">
-			<ul class="navbar-nav mx-auto">
-				<li class="nav-item "><a class="nav-link " href="/games/trending.html">Trending Now</a></li>
-				<li class="nav-item "><a class="nav-link " href="/games/skill.html">Skill</a></li>
-				<li class="nav-item "><a class="nav-link " href="/games/running.html">Running</a></li>
-				<li class="nav-item "><a class="nav-link " href="/games/shooting.html">Shooting</a></li>
-				<li class="nav-item "><a class="nav-link " href="/games/action.html">Action</a></li>
-				<li class="nav-item "><a class="nav-link " href="/games/puzzle.html">Puzzle</a></li>
-				<li class="nav-item "><a class="nav-link " href="/games/adventure.html">Adventure</a></li>
-				<li class="nav-item "><a class="nav-link " href="/games/car.html">Car</a></li>
-				<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">More</a>
-					<ul class="dropdown-menu" role="menu">
-						<li><a class="dropdown-item" href="/games/racing.html">Racing</a></li>
-						<li><a class="dropdown-item" href="/games/3d.html">3D</a></li>
-						<li><a class="dropdown-item" href="/games/moto.html">Moto</a></li>
-						<li><a class="dropdown-item" href="/games/stickman.html">Stickman</a></li>
-						<li><a class="dropdown-item" href="/games/idle.html">Idle</a></li>
-						<li><a class="dropdown-item" href="/games/2-player.html">2 Player</a></li>
-						<li><a class="dropdown-item" href="/games/multiplayer.html">Multiplayer</a></li>
-						<li><a class="dropdown-item" href="/games/sports.html">Sports</a></li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-	</div>
-</nav>
-<div class="container">
-	<div class="row">
 
-		<div class="col-md-12">
-			<div class="game-container">
-				<div class="game-content">
-					<div id="allow_mobile_version"></div>
-					<div class="game-iframe-container" id="game-player">
-						<div draggable="true" id="mobile-back-button">
-							<i class="bi bi-x-circle-fill"></i>
-						</div>
-						<iframe allowfullscreen="" class="game-iframe lazyload"
-						        data-src="https://edufall.github.io/o2/ape-sling"
-						        frameborder="0" height="480" id="game-area"
-						        scrolling="none" width="800"></iframe>
-					</div>
-				</div>
-				<div class="game-info">
-					<div class="header-left">
-						<h1 class="single-title">Ape Sling</h1>
-					</div>
-					<div class="header-right">
-						<div class="b-action2">
-							<a class="btn btn-capsule" href="#" onclick="open_fullscreen()"><i
-								class="bi bi-arrows-fullscreen b-icon"></i>Fullscreen</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div style="padding-top: 50px"><!--Intro game-->
-	</div>
-	<!-- New games section -->
-	<h3 class="section-title" style="padding-top: 60px;">New Games</h3>
-	<div class="row grid-container">
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="8bit-fiesta.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="8bit Fiesta" class="lazyload" src="/images/games/8bit-fiesta.png"></div>
-					</div>
-					<span class="list-game-title">8bit Fiesta</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="slime-laboratory.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Slime Laboratory" class="lazyload" src="/images/games/slime-laboratory.png"></div>
-					</div>
-					<span class="list-game-title">Slime Laboratory</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="jigsaw-photo-puzzle-christmas.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Jigsaw Photo Puzzle Christmas" class="lazyload" src="/images/games/jigsaw-photo-puzzle-christmas.png"></div>
-					</div>
-					<span class="list-game-title">Jigsaw Photo Puzzle Christmas</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="space-major-miner.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Space Major Miner" class="lazyload" src="/images/games/space-major-miner.png"></div>
-					</div>
-					<span class="list-game-title">Space Major Miner</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="cave-blast.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Cave Blast" class="lazyload" src="/images/games/cave-blast.png"></div>
-					</div>
-					<span class="list-game-title">Cave Blast</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="traffic-rush.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Traffic Rush" class="lazyload" src="/images/games/traffic-rush.png"></div>
-					</div>
-					<span class="list-game-title">Traffic Rush</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="sling-drift.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Sling Drift" class="lazyload" src="/images/games/sling-drift.png"></div>
-					</div>
-					<span class="list-game-title">Sling Drift</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="superbrawl.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Superbrawl" class="lazyload" src="/images/games/superbrawl.png"></div>
-					</div>
-					<span class="list-game-title">Superbrawl</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="fireboy-and-watergirl-4-crystal-temple.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Fireboy and Watergirl 4: Crystal Temple" class="lazyload" src="/images/games/fireboy-and-watergirl-4-crystal-temple.png"></div>
-					</div>
-					<span class="list-game-title">Fireboy and Watergirl 4: Crystal Temple</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="cat-room-blast.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Cat Room Blast" class="lazyload" src="/images/games/cat-room-blast.png"></div>
-					</div>
-					<span class="list-game-title">Cat Room Blast</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="little-master-cricket.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Little Master Cricket" class="lazyload" src="/images/games/little-master-cricket.png"></div>
-					</div>
-					<span class="list-game-title">Little Master Cricket</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="zombotag.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="ZomboTag  " class="lazyload" src="/images/games/zombotag.png"></div>
-					</div>
-					<span class="list-game-title">ZomboTag  </span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="fury-wars.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Fury wars" class="lazyload" src="/images/games/fury-wars.png"></div>
-					</div>
-					<span class="list-game-title">Fury wars</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="rush-race-motocross.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Rush Race Motocross" class="lazyload" src="/images/games/rush-race-motocross.png"></div>
-					</div>
-					<span class="list-game-title">Rush Race Motocross</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="cubinko.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Cubinko" class="lazyload" src="/images/games/cubinko.png"></div>
-					</div>
-					<span class="list-game-title">Cubinko</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="digging-master.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Digging Master" class="lazyload" src="/images/games/digging-master.png"></div>
-					</div>
-					<span class="list-game-title">Digging Master</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="combo-crusader.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Combo Crusader" class="lazyload" src="/images/games/combo-crusader.png"></div>
-					</div>
-					<span class="list-game-title">Combo Crusader</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="math-mahjong-relax.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Math Mahjong Relax" class="lazyload" src="/images/games/math-mahjong-relax.png"></div>
-					</div>
-					<span class="list-game-title">Math Mahjong Relax</span>
-				</div>
-			</a>
-		</div>
-	</div>
-	<!-- end New -->
 
-	<!-- Popular games section -->
-	<h3 class="section-title" style="padding-top: 60px;"> Games You May Like</h3>
-	<div class="row grid-container">
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="2048-cupcakes.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="2048 Cupcakes" class="lazyload" src="/images/games/2048-cupcakes.png"></div>
-					</div>
-					<span class="list-game-title">2048 Cupcakes</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="battle-wheels.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Battle Wheels" class="lazyload" src="/images/games/battle-wheels.png"></div>
-					</div>
-					<span class="list-game-title">Battle Wheels</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="temple-of-boom.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Temple Of Boom" class="lazyload" src="/images/games/temple-of-boom.png"></div>
-					</div>
-					<span class="list-game-title">Temple Of Boom</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="top-speed-3d.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Top Speed 3d" class="lazyload" src="/images/games/top-speed-3d.png"></div>
-					</div>
-					<span class="list-game-title">Top Speed 3d</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="cubito-mayhem.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Cubito Mayhem" class="lazyload" src="/images/games/cubito-mayhem.png"></div>
-					</div>
-					<span class="list-game-title">Cubito Mayhem</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="five-nights-at-freddys.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Five Nights at Freddy's" class="lazyload" src="/images/games/five-nights-at-freddys.png"></div>
-					</div>
-					<span class="list-game-title">Five Nights at Freddy's</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="city-car-driving-stunt-master.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="City Car Driving: Stunt Master" class="lazyload" src="/images/games/city-car-driving-stunt-master.png"></div>
-					</div>
-					<span class="list-game-title">City Car Driving: Stunt Master</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="bob-the-robber-4.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Bob The Robber 4" class="lazyload" src="/images/games/bob-the-robber-4.png"></div>
-					</div>
-					<span class="list-game-title">Bob The Robber 4</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="rocket-soccer-derby.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Rocket Soccer Derby" class="lazyload" src="/images/games/rocket-soccer-derby.png"></div>
-					</div>
-					<span class="list-game-title">Rocket Soccer Derby</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="g-switch-3.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="G Switch 3" class="lazyload" src="/images/games/g-switch-3.png"></div>
-					</div>
-					<span class="list-game-title">G Switch 3</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="kart-race-3d.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Kart Race 3D" class="lazyload" src="/images/games/kart-race-3d.png"></div>
-					</div>
-					<span class="list-game-title">Kart Race 3D</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="stickman-hook.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Stickman Hook" class="lazyload" src="/images/games/stickman-hook.png"></div>
-					</div>
-					<span class="list-game-title">Stickman Hook</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="sausage-flip.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Sausage Flip" class="lazyload" src="/images/games/sausage-flip.png"></div>
-					</div>
-					<span class="list-game-title">Sausage Flip</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="basketball-line.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Basketball Line" class="lazyload" src="/images/games/basketball-line.png"></div>
-					</div>
-					<span class="list-game-title">Basketball Line</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="vex-7.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Vex 7" class="lazyload" src="/images/games/vex-7.png"></div>
-					</div>
-					<span class="list-game-title">Vex 7</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="moto-x3m.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Moto X3M" class="lazyload" src="/images/games/moto-x3m.png"></div>
-					</div>
-					<span class="list-game-title">Moto X3M</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="soccer-skills-euro-cup.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Soccer Skills Euro Cup" class="lazyload" src="/images/games/soccer-skills-euro-cup.png"></div>
-					</div>
-					<span class="list-game-title">Soccer Skills Euro Cup</span>
-				</div>
-			</a>
-		</div>
-		<div class="col-lg-2 col-md-4 col-6 grid-3">
-			<a href="funny-shooter-2.html">
-				<div class="game-item">
-					<div class="list-game">
-						<div class="list-thumbnail"><img alt="Funny Shooter 2" class="lazyload" src="/images/games/funny-shooter-2.png"></div>
-					</div>
-					<span class="list-game-title">Funny Shooter 2</span>
-				</div>
-			</a>
-		</div>
-	</div>
-	<!-- end Poplular -->
-</div> <!-- end container -->
-<div class="footer-copyright py-4">
-	<div class="container" style="display: flex; justify-content: space-between; align-items: center;">
-		Slope Unblocked
-		<span class="dsb-panel">
-                <a href="/dmca.html">DMCA</a>
-			<!-- <a style="padding-left: 20px;" href="/privacy-policy.html">Privacy Policy</a>  -->
-            </span>
-	</div>
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-dark top-nav" id="mainNav">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"
+        aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand js-scroll-trigger" href="/">
+        <!-- <img src="#" width="70" height="35" class="" alt=" logo"> -->
+        <strong>Slope Unblocked</strong>
+      </a>
+
+
+      <div class="navbar-collapse collapse" id="nav-menu">
+
+
+
+      </div>
+      <div class="d-none d-lg-block">
+
+
+        <ul class="navbar-nav">
+
+   
+           <li class="nav-item "><a class="nav-link " href="/games/new.html">New</a></li>
+                    <li class="nav-item "><a class="nav-link " href="/games/popular.html">Popular</a></li>
+                    <li class="nav-item "><a class="nav-link " href="/games/sports.html">Sports</a></li>
+                    <li class="nav-item "><a class="nav-link " href="/games/car.html">Car</a></li>
+                    <li class="nav-item "><a class="nav-link " href="/games/skill.html">Skill</a></li>
+                    <li class="nav-item "><a class="nav-link " href="/games/shooting.html">Shooting</a></li>
+                    <li class="nav-item "><a class="nav-link " href="/games/racing.html">Racing</a></li>
+                 
+
+
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"
+                            data-bs-toggle="dropdown">More</a>
+                        <ul role="menu" class="dropdown-menu">
+                        
+                            <li><a class="dropdown-item" href="/games/running.html">Running</a></li>
+                            <li><a class="dropdown-item" href="/games/puzzle.html">Puzzle</a></li>
+                            <li><a class="dropdown-item" href="/games/adventure.html">Adventure</a></li>
+                            <li><a class="dropdown-item" href="/games/3d.html">3D</a></li>
+                            <li><a class="dropdown-item" href="/games/action.html">Action</a></li>
+                            <li><a class="dropdown-item" href="/games/stickman.html">Stickman</a></li>
+                            <li><a class="dropdown-item" href="/games/idle.html">Idle</a></li>
+                            <li><a class="dropdown-item" href="/games/moto.html">Moto</a></li>
+                            <li><a class="dropdown-item" href="/games/2-player.html">2 Player</a></li>
+                            <li><a class="dropdown-item" href="/games/multiplayer.html">Multiplayer</a></li>
+                        </ul>
+                    </li>
+
+
+        </ul>
+        </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+
+  <div class="container">
+
+
+
+    <div class="row">
+
+      <div class="banner-ad-wrapper">
+        <div class="banner-ad-content" style="padding: 10px 0 60px 0; text-align: center;">
+
+
+
+
+        </div>
+      </div>
+
+
+
+
+      <div class="col-md-9">
+        <div class="game-container">
+          <div class="game-content" data-id="169">
+            <div id="allow_mobile_version"></div>
+            <!-- 
+                <div id="mobile-play" style="display: none;">
+                  <div class="mobile-thumb-play">
+                    <img src="#">
+                  </div>
+                  <div id="mobile-play-btn">
+                    <i class="bi bi-play-circle-fill"></i>
+                  </div>
+                </div> -->
+
+
+
+            <div class="game-iframe-container" id="game-player">
+              <div id="mobile-back-button" draggable="true">
+                <i class="bi bi-x-circle-fill"></i>
+              </div>
+              <iframe class="game-iframe" id="game-area" src="https://education76.github.io/g2/ape-sling" width="480" height="800" scrolling="none"
+                frameborder="0" allowfullscreen=""></iframe>
+            </div>
+          </div>
+
+
+          <div class="game-info">
+            <div class="header-left">
+              <h1 class="single-title">slopeunblockedd.github.io</h1>
+
+
+            </div>
+            <div class="header-right">
+
+
+              <div class="b-action2">
+
+                <a href="#" onclick="open_fullscreen()" class="btn btn-capsule"><i
+                    class="bi bi-arrows-fullscreen b-icon"></i>Fullscreen</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+      </div><!-- end col-9 -->
+
+
+
+
+
+
+      <div style="padding-left: 50px;" class="col-md-3 ">
+
+        <div class="banner-ad-wrapper">
+          <div class="banner-ad-content" style="text-align: center;">
+    
+
+
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+        <!-- New games section -->
+        <h3 style="padding-top: 40px;" class="section-title">New Games</h3>
+        <div class="row grid-container">
+
+
+            
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/idle-cowshed.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/idle-cowshed.png" class="lazyload" alt="Iidle Cowshed"></div>
+    </div>
+  </div>
+  </a>
 </div>
-<script src="/js/jquery-3.6.2.min.js" type="text/javascript"></script>
-<script src="/js/lazysizes.min.js" type="text/javascript"></script>
-<script src="/js/popper.min.js" type="text/javascript"></script>
-<script src="/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="/js/script.js" type="text/javascript"></script>
-<script src="/js/custom.js" type="text/javascript"></script>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/temple-run-2-holi-festival.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/temple-run-2-holi-festival.png" class="lazyload" alt="Temple Run 2 Holi Festival"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/slime-laboratory-3.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/slime-laboratory-3.png" class="lazyload" alt="Slime Laboratory 3"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/mummys-path-deluxe.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/mummys-path-deluxe.png" class="lazyload" alt="Mummys Path Deluxe"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/master-checkers.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/master-checkers.png" class="lazyload" alt="Master Checkers"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/cover-orange-journey.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/cover-orange-journey.png" class="lazyload" alt="Cover Orange Journey"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/super-mx-the-champion.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/super-mx-the-champion.png" class="lazyload" alt="Super Mx The Champion"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/jungle-bubble-shooter-mania.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/jungle-bubble-shooter-mania.png" class="lazyload" alt="Jungle Bubble Shooter Mania"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/lines-to-fill.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/lines-to-fill.png" class="lazyload" alt="Lines To Fill"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/crazy-bikes.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/crazy-bikes.png" class="lazyload" alt="Crazy Bbikes"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/slopey.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/slopey.png" class="lazyload" alt="Slopey"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/bumpy-jumpy.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/bumpy-jumpy.png" class="lazyload" alt="Bumpy Jumpy"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/temple-run-2-frozen-festival.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/temple-run-2-frozen-festival.png" class="lazyload" alt="Temple Run 2 Frozen Festival"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/cubies.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/cubies.png" class="lazyload" alt="Cubies"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/super-speeder.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/super-speeder.png" class="lazyload" alt="Super Speeder"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/footyzag.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/footyzag.png" class="lazyload" alt="Footyzag"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/double-panda.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/double-panda.png" class="lazyload" alt="Double panda"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/puffy-cat-2.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/puffy-cat-2.png" class="lazyload" alt="Puffy Cat 2"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+
+        </div> <!-- end New -->
+
+
+
+
+      <div class="banner-ad-wrapper">
+            <div class="banner-ad-content" style="padding: 40px; text-align: center;">
+      
+               
+
+            </div>
+        </div>
+
+
+
+    <!-- Popular games section -->
+
+    <h3 style="padding-top: 40px;" class="section-title">You May Like</h3>
+    <div class="row grid-container">
+
+
+
+
+      
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/slopey.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/slopey.png" class="lazyload" alt="Slopey"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/a-pretty-odd-bunny.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/a-pretty-odd-bunny.png" class="lazyload" alt="A Pretty Odd Bunny"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/escaping-the-prison.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/escaping-the-prison.png" class="lazyload" alt="Escaping The Prison"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/stick-merge.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/stick-merge.png" class="lazyload" alt="Stick Merge"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/papas-pizzeria.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/papas-pizzeria.png" class="lazyload" alt="Papas Pizzeria"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/geometry-dash.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/geometry-dash.png" class="lazyload" alt="Geometry Dash"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/parking-fury-3d-night-thief.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/parking-fury-3d-night-thief.png" class="lazyload" alt="Parking Fury 3D: Night Thief"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/getaway-shootout.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/getaway-shootout.png" class="lazyload" alt="Getaway Shootout"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/swingo.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/swingo.png" class="lazyload" alt="Swingo"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/paper-io-2.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/paper-io-2.png" class="lazyload" alt="Paper Io 2"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/offroader-v5.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/offroader-v5.png" class="lazyload" alt="Offroader V5"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/stick-defenders.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/stick-defenders.png" class="lazyload" alt="Stick Defenders"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/traffic-rush.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/traffic-rush.png" class="lazyload" alt="Traffic Rush"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/retro-bowl.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/retro-bowl.png" class="lazyload" alt="Retro Bowl"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/smash-karts.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/smash-karts.png" class="lazyload" alt="Smash Karts"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/murder.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/murder.png" class="lazyload" alt="Murder"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/tag-2.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/tag-2.png" class="lazyload" alt="Tag 2"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+  <a href="/go/moto-x3m-2.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="/images/game/moto-x3m-2.png" class="lazyload" alt="Moto X3m 2"></div>
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+
+
+    </div>
+
+    <!-- end Poplular -->
+
+
+
+  </div> <!-- end container -->
+
+
+
+  <div class="banner-ad-wrapper">
+    <div class="banner-ad-content" style="padding: 40px; text-align: center;">
+
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="footer-copyright py-4">
+    <div class="container">
+      slopeunblockedd.github.io<span class="dsb-panel">
+        <a href="/dmca.html">DMCA</a>
+        </span>
+    </div>
+  </div>
+
+
+
+  <script type="text/javascript" src="../js/jquery-3.6.2.min.js"></script>
+  <script type="text/javascript" src="../js/lazysizes.min.js"></script>
+  <script type="text/javascript" src="../js/popper.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+
+
+  <script type="text/javascript" src="../js/script.js"></script>
+  <script type="text/javascript" src="../js/custom.js"></script>
+
+
+
+
+
 </body>
+
 </html>
